@@ -1,0 +1,40 @@
+{
+  "monsters": [
+    {
+      "id": "hero_001",
+      "name": "Knight",
+      "maxHp": 120,
+      "attack": 20,
+      "defense": 8,
+      "skillIds": ["slash", "shield_break"]
+    },
+    {
+      "id": "slime_001",
+      "name": "Green Slime",
+      "maxHp": 90,
+      "attack": 14,
+      "defense": 4,
+      "skillIds": ["acid"]
+    }
+  ],
+  "skills": [
+    {
+      "id": "slash",
+      "name": "Slash",
+      "power": 12,
+      "cooldown": 2
+    },
+    {
+      "id": "shield_break",
+      "name": "Shield Break",
+      "power": 16,
+      "cooldown": 3
+    },
+    {
+      "id": "acid",
+      "name": "Acid Splash",
+      "power": 10,
+      "cooldown": 2
+    }
+  ]
+}
